@@ -1,0 +1,122 @@
+.carousel-inner{
+  width:100%;
+  max-height: 700px !important;
+}
+
+#divider{
+  border: 10px;
+  border-style: solid;
+  border-color: black;
+}
+
+.backgroundhome{
+  width: 100%;
+  height: auto;
+  background-image: url(Imgs/newback.jpg);
+  background-size: 100% 100%;
+  margin: 0px;
+  margin-top: -50px;
+  padding: 10px;
+  text-align: center;
+  background-size:     cover; 
+  background-repeat:   no-repeat;
+  background-position: center center;  
+}
+
+.mainbody{
+  background: rgb(191,187,177);
+  background: radial-gradient(circle, rgba(191,187,177,1) 0%, rgba(111,101,81,1) 100%, rgba(118,118,118,1) 100%, rgba(139,139,151,1) 100%);
+  margin: 0px;
+  margin-top: -50px;
+  padding: 10px;
+}
+
+.backgroundhome img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.maintext{
+  font-size: 20px;
+  font-family: 'Aldrich', sans-serif;
+  font-family: 'Calligraffitti', cursive;
+}
+
+.temp{
+  padding-bottom: 1000px;
+}
+
+.temp2left{
+  text-align: left;
+  padding: 100px;
+  width: 50%;
+}
+
+.temptop{
+  text-align: center;
+  width: 70%;
+}
+
+.headerone{
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.comments{
+  font-size: 20px;
+  font-family: 'Aldrich', sans-serif;
+  font-family: 'Calligraffitti', cursive;
+  text-align: center;
+  padding: 30px;
+  border: 5px;
+  border-style: solid;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+}
+
+#comment{
+  width: 350px;
+  height: 150px;
+}
+
+.commentstitle{
+  font-size: 50px;
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-underline-offset: 10px;
+}
+
+#fill{
+  font-family: 'Aldrich', sans-serif;
+  font-family: 'Calligraffitti', cursive;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  padding-top: 50px;
+}
+
+#buttoncomment{
+  font-family: Arial, sans-serif;
+  border: none;
+  color: black;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#comment{
+  font-family: Arial, sans-serif;
+}
+
+#commentpost{
+  font-size: 25px;
+  font-weight: bold;
+}
